@@ -25,9 +25,3 @@ const rename = async () => {
 };
 
 await rename();
-
-/*
-rename.js - реализуйте функцию, которая переименовывает файл wrongFilename.txt
- в properFilename с расширением .md 
- (если файла нет wrongFilename.txt или properFilename.md он уже существует Error с сообщением, которое FS operation failed должно быть выдано)
-*/
